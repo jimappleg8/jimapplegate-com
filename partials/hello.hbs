@@ -1,5 +1,5 @@
 <div class="container medium" style="border:1px solid #000; padding:20px;">
-    <div class="row">
+    <div class="row" style="margin-bottom:40px;">
         <div class="col-6">
             <img src="{{asset 'images/home-hero.jpg'}}" />
         </div>
@@ -10,6 +10,27 @@
             <p>I believe that making a difference is about being intentional about the work you do as a cultural activist engaged in your creative practice, and how you communicate that work to others.</p>
             <p>Subscribe below to get my weekly newsletter, Jim's Notebook, and read articles on building an effective and meaningful creative practice, strengthening your personal universe, and using open artifacts to give your ideas a life of their own.</p>
             <p>Hire me for one-on-one coaching or hire me to examine how open artifacts can expand the reach and effectiveness of your nonprofit.</p>
+
+    <form class="subscribe-form" data-members-form="subscribe">
+        <div class="subscribe-form-fields">
+            <input class="tc" data-members-email="" placeholder="your@email.com" autocomplete="false" required>
+            <button type="submit">
+                <span style="">Subscribe</span>
+            </button>
+        </div>
+        <div class="message-success">
+            <strong>Great!</strong> Check your inbox (or spam folder) and click the link to confirm your subscription.
+        </div>
+        <div class="message-error">
+            Sorry, something went wrong. Please try again.
+        </div>
+	</form>
+<style>
+    .subscribe-form.success .message-success {display:block}
+    .subscribe-form.success .subscribe-form-fields {display:none}
+    .subscribe-form.error .message-error {display:block}
+</style>
+
         </div>
     </div>
 </div>
