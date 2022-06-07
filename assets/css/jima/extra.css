@@ -6,3 +6,6 @@ div#hello {
 #hello p, #hello hr {
     margin-bottom:16px;
 }
+#helo p.small-text {
+    font-size: 0.8em;
+}
