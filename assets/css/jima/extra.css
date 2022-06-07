@@ -1,13 +1,13 @@
 div#hello {
-    background-image: url("/assets/images/home-hero-2.jpg");
+/*    background-image: url("/assets/images/home-hero-2.jpg");
     background-color: #999;
-    background-size: cover;
+    background-size: cover; */
 /*    border:1px solid #000; */
     padding:20px;
     margin-bottom:40px;
 }
 div#hello .opaque {
-    background-color: #FFF;
+/*    background-color: #FFF; */
 }
 
 #hello p {
