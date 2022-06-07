@@ -1,15 +1,8 @@
 div#hello {
-/*    background-image: url("/assets/images/home-hero-2.jpg");
-    background-color: #999;
-    background-size: cover; */
-/*    border:1px solid #000; */
     padding:20px;
     margin-bottom:40px;
 }
-div#hello .opaque {
-/*    background-color: #FFF; */
-}
 
-#hello p {
-    margin-bottom:9px;
+#hello p, #hello hr {
+    margin-bottom:16px;
 }

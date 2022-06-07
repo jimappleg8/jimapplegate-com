@@ -5,6 +5,7 @@
   flex-direction: column;
   width: 100%;
   max-width: 30rem;
+  margin: 24px auto 0 auto;
 }
 
 .subscription-form input,
